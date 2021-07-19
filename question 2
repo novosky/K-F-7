@@ -1,0 +1,16 @@
+Given a random non-negative number, you have to return the
+digits of this number within an array in reverse order.
+Example:
+348597 => [7,9,5,8,4,3]
+258 => [8,5,2]
+
+
+fun reverseNumber(num : Long): List<String> {
+        return num.toString().split("").reversed()
+    }
+
+
+fun main(){
+    println(reverseNumber(348597))
+
+}
